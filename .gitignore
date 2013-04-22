@@ -1,2 +1,4 @@
+.ruby-version
 .bundle
 vendor
+config/database.yml

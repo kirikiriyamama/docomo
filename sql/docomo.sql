@@ -5,16 +5,16 @@ USE `docomo`;
 -- -------------------------------------------------------
 
 --
--- Table structure for table `product_update_info`
+-- Table structure for table `product_update`
 --
-CREATE TABLE IF NOT EXISTS `product_update_info` (
+CREATE TABLE IF NOT EXISTS `product_update` (
 	`id` int(11) NOT NULL auto_increment,
-	`update_start_date` datetime NOT NULL default '0000-00-00 00:00:00',
-	`model_name` varchar(255) NOT NULL default '',
-	`corresponding_method` varchar(255) NOT NULL default '',
-	`update_term` datetime NOT NULL default '0000-00-00 00:00:00',
+	`start_date` datetime NOT NULL default '0000-00-00 00:00:00',
+	`model` varchar(255) NOT NULL default '',
+	`approach` varchar(255) NOT NULL default '',
+	`end_date` datetime NOT NULL default '0000-00-00 00:00:00',
 	`other` varchar(255) NOT NULL default '',
-	`register_date` datetime NOT NULL default '0000-00-00 00:00:00',
+	`acquisition_date` datetime NOT NULL default '0000-00-00 00:00:00',
 	PRIMARY KEY(`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

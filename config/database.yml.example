@@ -1,0 +1,6 @@
+adapter: mysql2
+database: docomo
+host: localhost
+username: docomo
+password: ""
+encoding: utf8
